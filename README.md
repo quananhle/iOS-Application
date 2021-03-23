@@ -37,11 +37,11 @@ Keeps track of information such as what classes students are in, their daily sch
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
-* Profile Add-On: Top music choices, etc.
-* Optional Shuffle Button (i.e. random encounter/random song)
-* Listening/Encounter Queue
+* Allows users to request to be in a study group with a certain user(s)
+* Study group history (to potentially match users with members of previous groups in the future)
+* Group member ratings/karma system
+* Page that allows groups to select custom study locations (perhaps off campus)
+
 
 ### 2. Screen Archetypes
 
