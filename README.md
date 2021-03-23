@@ -76,11 +76,11 @@ Optional:
 
 
 ## Wireframes
-
+<!--
 <p float="center">
 <a href="Pictures/wireframes.jpg"><img src="Pictures/wireframes.jpg"></a>
 </p>
-
-
+-->
+![Wireframes](Pictures/wireframes.jpg?raw=true "Main page")
 
 <img align="right" width="75" height="20" src="https://visitor-badge.glitch.me/badge?page_id=quananhle.iOS-Application">
