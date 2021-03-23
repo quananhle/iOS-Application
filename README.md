@@ -48,7 +48,6 @@ Keeps track of information such as what classes students are in, their daily sch
 * Login 
 * Register - User signs up or logs into their account
    * Upon Download/Reopening of the application, the user is prompted to log in with their university credentials to gain access to their profile information to be properly matched with a group. 
-   * ...
 * Messaging Screen - Chat for users to communicate (direct 1-on-1)
    * Allows students to message peers from their study group or to message those who are using the same study place/spot.
 * Profile Screen 
