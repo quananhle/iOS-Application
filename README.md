@@ -1,7 +1,7 @@
 Unit 8: Group Milestone 
 ===
 
-# STUDIIT
+# StudiIT
 
 ## Table of Contents
 1. [Overview](#Overview)
