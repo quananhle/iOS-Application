@@ -1,10 +1,6 @@
 Unit 8: Group Milestone 
 ===
 
-:::info
-**Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
-:::
-
 # STILL NEED A NAME
 
 ## Table of Contents
@@ -78,6 +74,7 @@ Optional:
 * Profile -> Text field to be modified. 
 * Settings -> Toggle settings
 
+<!--
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
@@ -86,3 +83,4 @@ Optional:
 
 ### [BONUS] Interactive Prototype
 <img src="https://i.imgur.com/AiKfE5g.gif" width=200>
+-->
