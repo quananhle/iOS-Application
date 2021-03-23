@@ -76,9 +76,10 @@ Optional:
 
 
 ## Wireframes
-* Replace this image 
-* 
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+
+<p float="center">
+<a href="Pictures/wireframes.jpg"><img src="Pictures/wireframes.jpg"></a>
+</p>
 
 
 
