@@ -85,7 +85,7 @@ Optional:
 
 ## Schema 
 ### Models
-#### Post
+#### Model
 
 |Property              |Type    |Description       |
 |---                   |---     |---               |
@@ -93,7 +93,13 @@ Optional:
 | Student              |Pointer |points to the user who is resrving a space or looking for a study group |           
 |   Reservation        | Object |reservation that the user creates|
 |   Message            | String |messages that the study group shares among its group members |                  
-|  Rating              | String |comments/rate number that students leave after using a given space |                 
+|  Rating              | String |comments/rate number that students leave after using a given space |  
+| GPA                  | Double | Student's GPA |
+| Clubs                | String | Clubs that a student is part of |
+| Major                | String | Discipline which the student is studying |
+| MatchRate            | Double | Percentage of compatibility between any two students |
+| createdAt            |DateTime| When the reservation was created |
+| updatedAt            |DateTime| When the reservation was last updated |
 
 ### Networking
 #### List of network requests by screen
