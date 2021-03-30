@@ -87,13 +87,13 @@ Optional:
 ### Models
 #### Post
 
-|Java                  |JDBC    |Hibernate type    |Registry Key|
-|---                   |---     |---               |---    |
-|java.lang.String      |VARCHAR |StringType        |string |
-|java.lang.String      |NVARCHAR|StringNVarcharType|nstring|
-|int, java.lang.Integer|INTEGER |IntegerTypes      |int    |
-|long, java.lang.Long  |BIGINT  |LongType          |long   |
-
+|Property              |Type    |Description       |
+|---                   |---     |---               |
+|                      |        |                  |
+|                      |        |                  |
+|                      |        |                  |
+|                      |        |                  |
+|                      |        |                  |
 
 ### Networking
 #### List of network requests by screen
