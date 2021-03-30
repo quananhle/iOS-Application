@@ -131,8 +131,8 @@ Optional:
 
 |HTTP Verb      |Endpoint|Description       |
 |---            |---     |---               |
-* (READ/GET) Available spots and free timeslots from a database
-* (UPDATE/SHOW) Study group member's availability and options for when is best to reserve a study spot
-* (UPDATE/CREATE) Create a new reservation
-* (UPDATE/DELETE) Delete an already existing reservation
-* (CREATE/POST) Put a rating or a comment about a given study spot
+|(READ/GET)     |        |Available spots and free timeslots from a database|
+|(UPDATE/SHOW)  |        |Study group member's availability and options for when is best to reserve a study spot|
+|(UPDATE/CREATE)|        |Create a new reservation|
+|(UPDATE/DELETE)|        |Delete an already existing reservation|
+|(CREATE/POST)  |        |Put a rating or a comment about a given study spot|
