@@ -89,11 +89,11 @@ Optional:
 
 |Property              |Type    |Description       |
 |---                   |---     |---               |
-|                      |        |                  |
-|                      |        |                  |
-|                      |        |                  |
-|                      |        |                  |
-|                      |        |                  |
+| UserID               |Integer | Unique user id number |
+| Student              |Pointer |points to the user who is resrving a space or looking for a study group |           
+|   Reservation        | Object |reservation that the user creates|
+|   Message            | String |messages that the study group shares among its group members |                  
+|  Rating              | String |comments/rate number that students leave after using a given space |                 
 
 ### Networking
 #### List of network requests by screen
