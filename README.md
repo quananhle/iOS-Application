@@ -112,6 +112,8 @@ Optional:
 
 **Profile Screen**
 
+|HTTP Verb      |Endpoint|Description       |
+|---            |---     |---               |
 * (READ/GET) Query logged in user object
 * (UPDATE/PUT) Update the profile image
 * (UPDATE/PUT) Update courses that the student is currently taking
@@ -120,11 +122,15 @@ Optional:
 
 **Search a match screen**
 
+|HTTP Verb      |Endpoint|Description       |
+|---            |---     |---               |
 * (READ/GET) Users information and compare it to the student's profile credentials
 * (UPDATE/PUT) Match result and propose a study group combinations
 
 **Reserve a study spot screen**
 
+|HTTP Verb      |Endpoint|Description       |
+|---            |---     |---               |
 * (READ/GET) Available spots and free timeslots from a database
 * (UPDATE/SHOW) Study group member's availability and options for when is best to reserve a study spot
 * (UPDATE/CREATE) Create a new reservation
