@@ -83,4 +83,20 @@ Optional:
 -->
 ![Wireframes](Pictures/wireframes.jpg?raw=true "Main page")
 
+## Schema 
+### Models
+#### Post
+
+|Java                  |JDBC    |Hibernate type    |Registry Key|
+|---                   |---     |---               |---    |
+|java.lang.String      |VARCHAR |StringType        |string |
+|java.lang.String      |NVARCHAR|StringNVarcharType|nstring|
+|int, java.lang.Integer|INTEGER |IntegerTypes      |int    |
+|long, java.lang.Long  |BIGINT  |LongType          |long   |
+
+
+### Networking
+#### List of network requests by screen
+
 <img align="right" width="75" height="20" src="https://visitor-badge.glitch.me/badge?page_id=quananhle.iOS-Application">
+
