@@ -84,8 +84,8 @@ Optional:
 ![Wireframes](Pictures/wireframes.jpg?raw=true "Main page")
 
 ## Schema 
-### Models
-#### Model
+
+#### Models
 
 |Property              |Type    |Description       |
 |---                   |---     |---               |
@@ -105,8 +105,10 @@ Optional:
 #### List of network requests by screen
 
 **Home messages screen**
-
-* (CREATE/DELETE) Create a new thread messages with a study group or delete an already existing one
+	 	
+|HTTP Verb      |Endpoint|Description       |
+|---            |---     |---               |
+|(CREATE/DELETE)|        |Create a new thread messages with a study group or delete an already existing one|
 
 **Profile Screen**
 
