@@ -124,8 +124,8 @@ Optional:
 
 |HTTP Verb      |Endpoint|Description       |
 |---            |---     |---               |
-* (READ/GET) Users information and compare it to the student's profile credentials
-* (UPDATE/PUT) Match result and propose a study group combinations
+|(READ/GET)     |        |Users information and compare it to the student's profile credentials|
+|(UPDATE/PUT)   |        |Match result and propose a study group combinations|
 
 **Reserve a study spot screen**
 
