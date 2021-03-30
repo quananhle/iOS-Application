@@ -98,9 +98,27 @@ Optional:
 ### Networking
 #### List of network requests by screen
 
-**Tab Navigation** (Tab to Screen)
+**Home messages screen**
 
-* Study spot finder page
-* Group finder page
-* Profile
-* Settings
+* (CREATE/DELETE) Create a new thread messages with a study group or delete an already existing one
+
+**Profile Screen**
+
+* (READ/GET) Query logged in user object
+* (UPDATE/PUT) Update the profile image
+* (UPDATE/PUT) Update courses that the student is currently taking
+* (UPDATE/PUT) Update study groups that the student is currently part of
+* (UPDATE/PUT) Update GPA, Major, Clubs
+
+**Search a match screen**
+
+* (READ/GET) Users information and compare it to the student's profile credentials
+* (UPDATE/PUT) Match result and propose a study group combinations
+
+**Reserve a study spot screen**
+
+* (READ/GET) Available spots and free timeslots from a database
+* (UPDATE/SHOW) Study group member's availability and options for when is best to reserve a study spot
+* (UPDATE/CREATE) Create a new reservation
+* (UPDATE/DELETE) Delete an already existing reservation
+* (CREATE/POST) Put a rating or a comment about a given study spot
