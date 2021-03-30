@@ -114,11 +114,11 @@ Optional:
 
 |HTTP Verb      |Endpoint|Description       |
 |---            |---     |---               |
-* (READ/GET) Query logged in user object
-* (UPDATE/PUT) Update the profile image
-* (UPDATE/PUT) Update courses that the student is currently taking
-* (UPDATE/PUT) Update study groups that the student is currently part of
-* (UPDATE/PUT) Update GPA, Major, Clubs
+|(READ/GET)     |        |Query logged in user object|
+|(UPDATE/PUT)   |        |Update the profile image|
+|(UPDATE/PUT)   |        |Update courses that the student is currently taking|
+|(UPDATE/PUT)   |        |Update study groups that the student is currently part of|
+|(UPDATE/PUT)   |        |Update GPA, Major, Clubs|
 
 **Search a match screen**
 
