@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3L7-EP-YNe">
@@ -100,6 +100,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dTW-rW-BYv"/>
                     <connections>
                         <outlet property="passwordField" destination="3L7-EP-YNe" id="naD-Up-hdE"/>
                         <outlet property="usernameField" destination="Kl5-0Y-95G" id="WUW-cG-l9K"/>
@@ -201,11 +202,12 @@
                         <outlet property="nameField" destination="sak-Xj-qt2" id="Q2Z-nE-tZs"/>
                         <outlet property="passwordField" destination="gcY-Og-ZXI" id="2Kk-e6-xv4"/>
                         <outlet property="usernameField" destination="sUO-jc-xiU" id="axX-r8-pEz"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signedupSegue" id="0jK-ck-Yyd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guK-76-XNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="799.55357142857144"/>
+            <point key="canvasLocation" x="-651" y="848"/>
         </scene>
     </scenes>
     <resources>

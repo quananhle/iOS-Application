@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController {
         user.email = emailField.text
         user.signUpInBackground { (success, error) in
             if success {
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                self.performSegue(withIdentifier: "signedupSegue", sender: nil)
             }
             else {
                 print ("Error: \(error?.localizedDescription)")
