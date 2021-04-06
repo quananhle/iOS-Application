@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		36051DFAA85EC42D160B8FD3 /* Pods_StudIITTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B1ACFF4479FA526C32716 /* Pods_StudIITTests.framework */; };
+		490BC983261C155F00393A65 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC982261C155F00393A65 /* LoginViewController.swift */; };
+		490BC985261C158800393A65 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC984261C158800393A65 /* MainPageViewController.swift */; };
+		490BC987261C15A700393A65 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC986261C15A700393A65 /* RegisterViewController.swift */; };
 		4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41B2609A5A900A13296 /* AppDelegate.swift */; };
 		4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41D2609A5A900A13296 /* SceneDelegate.swift */; };
 		4940E4202609A5A900A13296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41F2609A5A900A13296 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		0FEE7A908F554ECAF0359CDC /* Pods-StudIIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudIIT.debug.xcconfig"; path = "Target Support Files/Pods-StudIIT/Pods-StudIIT.debug.xcconfig"; sourceTree = "<group>"; };
 		1F0B1ACFF4479FA526C32716 /* Pods_StudIITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudIITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490BC982261C155F00393A65 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		490BC984261C158800393A65 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		490BC986261C15A700393A65 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4940E4182609A5A900A13296 /* StudIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4940E41B2609A5A900A13296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4940E41D2609A5A900A13296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,9 +126,12 @@
 				4940E41D2609A5A900A13296 /* SceneDelegate.swift */,
 				4940E41F2609A5A900A13296 /* ViewController.swift */,
 				4940E4212609A5A900A13296 /* Main.storyboard */,
+				490BC982261C155F00393A65 /* LoginViewController.swift */,
 				4940E4242609A5AB00A13296 /* Assets.xcassets */,
 				4940E4262609A5AB00A13296 /* LaunchScreen.storyboard */,
 				4940E4292609A5AB00A13296 /* Info.plist */,
+				490BC984261C158800393A65 /* MainPageViewController.swift */,
+				490BC986261C15A700393A65 /* RegisterViewController.swift */,
 			);
 			path = StudIIT;
 			sourceTree = "<group>";
@@ -165,7 +174,6 @@
 				B0EA19805F6A179283BD020A /* Pods-StudIITTests.debug.xcconfig */,
 				E926834B412E9A768B86B2BC /* Pods-StudIITTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BC985261C158800393A65 /* MainPageViewController.swift in Sources */,
 				4940E4202609A5A900A13296 /* ViewController.swift in Sources */,
 				4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */,
+				490BC987261C15A700393A65 /* RegisterViewController.swift in Sources */,
+				490BC983261C155F00393A65 /* LoginViewController.swift in Sources */,
 				4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
