@@ -29,6 +29,8 @@ class RegisterViewController: UIViewController {
         user.signUpInBackground { (success, error) in
             if success {
                 self.performSegue(withIdentifier: "signedupSegue", sender: nil)
+                let username = self.usernameField.text
+                let password = self.passwordField.text
             }
             else {
                 print ("Error: \(error?.localizedDescription)")
