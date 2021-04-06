@@ -138,3 +138,5 @@ Optional:
 |(UPDATE/CREATE)|        |Create a new reservation|
 |(UPDATE/DELETE)|        |Delete an already existing reservation|
 |(CREATE/POST)  |        |Put a rating or a comment about a given study spot|
+
+![LoginPage](Pictures/login.png?raw=true "Login page")
