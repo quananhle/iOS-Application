@@ -6,7 +6,9 @@ target 'StudIIT' do
   use_frameworks!
 
   # Pods for StudIIT
+  pod 'Parse'
   pod 'AlamofireImage'
+
 
   target 'StudIITTests' do
     inherit! :search_paths
