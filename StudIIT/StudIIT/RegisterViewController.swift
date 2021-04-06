@@ -2,11 +2,12 @@
 //  RegisterViewController.swift
 //  StudIIT
 //
-//  Created by Ashley Le on 4/6/21.
+//  Created by Quan Le on 4/6/21.
 //  Copyright © 2021 codepath. All rights reserved.
 //
 
 import UIKit
+import Parse
 
 class RegisterViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
@@ -25,8 +26,14 @@ class RegisterViewController: UIViewController {
         user.username = usernameField.text
         user.password = passwordField.text
         user.email = emailField.text
-        // other fields can be set just like with PFObject
-        user["phone"] = "415-392-0202"
+        user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+            else {
+                print ("Error: \(error?.localizedDescription)")
+            }
+        }
     }
 
     /*
