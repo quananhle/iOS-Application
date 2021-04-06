@@ -51,6 +51,7 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="onRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OK7-ga-5qm"/>
+                                    <segue destination="lvt-Qt-xJX" kind="presentation" id="T8W-CZ-2Xo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tco-WQ-pfI">
@@ -102,6 +103,7 @@
                     <connections>
                         <outlet property="passwordField" destination="3L7-EP-YNe" id="naD-Up-hdE"/>
                         <outlet property="usernameField" destination="Kl5-0Y-95G" id="WUW-cG-l9K"/>
+                        <segue destination="w8c-Gd-c1A" kind="presentation" identifier="loginSegue" id="S9q-MU-uAr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -113,7 +115,7 @@
             <objects>
                 <viewController id="3D0-Ki-UMi" customClass="MainPageViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IJo-6g-BiZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="XIa-uc-eFa"/>
@@ -130,7 +132,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w8c-Gd-c1A" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bx6-xA-82A">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -147,7 +149,7 @@
             <objects>
                 <viewController id="lvt-Qt-xJX" customClass="RegisterViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LO7-Tp-XUk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aTi-a1-KCW"/>
