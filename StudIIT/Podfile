@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'StudIIT' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for StudIIT
+  pod 'AlamofireImage'
+
+  target 'StudIITTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'StudIITUITests' do
+    # Pods for testing
+  end
+
+end
