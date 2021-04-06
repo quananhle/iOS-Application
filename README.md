@@ -142,4 +142,5 @@ Optional:
 <p float="left">
 <a href="Pictures/login.png"><img src="Pictures/login.png" height="750" width="350"></a>
 <a href="Pictures/studIIT.gif"><img src="Pictures/studIIT.gif" height="750" width="350"></a>
+<a href="Pictures/login.gif"><img src="Pictures/login.gif" height="750" width="350"></a>	
 </p>
