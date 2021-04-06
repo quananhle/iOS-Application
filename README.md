@@ -81,11 +81,7 @@ Optional:
 
 
 ## Wireframes
-<!--
-<p float="center">
-<a href="Pictures/wireframes.jpg"><img src="Pictures/wireframes.jpg"></a>
-</p>
--->
+
 ![Wireframes](Pictures/wireframes.jpg?raw=true "Main page")
 
 ## Schema 
