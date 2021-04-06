@@ -138,3 +138,7 @@ Optional:
 |(UPDATE/CREATE)|        |Create a new reservation|
 |(UPDATE/DELETE)|        |Delete an already existing reservation|
 |(CREATE/POST)  |        |Put a rating or a comment about a given study spot|
+
+<p float="left">
+<a href="Pictures/login.png"><img src="Pictures/login.png" height="750" width="350"></a>
+</p>
