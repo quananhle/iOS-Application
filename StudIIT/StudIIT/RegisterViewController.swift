@@ -9,13 +9,25 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
-
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onSignUp(_ sender: Any) {
+        var user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        user.email = emailField.text
+        // other fields can be set just like with PFObject
+        user["phone"] = "415-392-0202"
+    }
 
     /*
     // MARK: - Navigation

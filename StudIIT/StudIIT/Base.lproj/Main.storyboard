@@ -156,7 +156,7 @@
                                 <rect key="frame" x="83" y="38" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number of Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXg-bI-8hg">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXg-bI-8hg">
                                 <rect key="frame" x="53" y="190" width="276" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -188,11 +188,20 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleShadowColor" red="0.54897662219999999" green="0.7957949969" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onSignUp:" destination="lvt-Qt-xJX" eventType="touchUpInside" id="NEf-bV-6Bn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aTi-a1-KCW"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="VXg-bI-8hg" id="ijS-Z1-ce3"/>
+                        <outlet property="nameField" destination="sak-Xj-qt2" id="Q2Z-nE-tZs"/>
+                        <outlet property="passwordField" destination="gcY-Og-ZXI" id="2Kk-e6-xv4"/>
+                        <outlet property="usernameField" destination="sUO-jc-xiU" id="axX-r8-pEz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guK-76-XNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
