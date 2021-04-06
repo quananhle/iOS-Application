@@ -25,23 +25,23 @@ Keeps track of information such as what classes students are in, their daily sch
 
 - [X] User logs in to access previous chats and preference settings
 
-- [] User enters information such as their class schedule, GPA, upcoming assignments (although some of this may be pulled from school database i.e. myIIT, Blackboard IIT), clubs that they are a part of, times they are available to study
+- [ ] User enters information such as their class schedule, GPA, upcoming assignments (although some of this may be pulled from school database i.e. myIIT, Blackboard IIT), clubs that they are a part of, times they are available to study
 
-- [] Users are then matched with other users, and matches have a chat window to get to know each other, with the ability to confirm meeting members, times and locations or unmatch from a study group (Tinder Style).
+- [ ] Users are then matched with other users, and matches have a chat window to get to know each other, with the ability to confirm meeting members, times and locations or unmatch from a study group (Tinder Style).
 
-- [] Profile pages for each user (showing what study group they were a part of, classes they are in)
+- [ ] Profile pages for each user (showing what study group they were a part of, classes they are in)
 
-- [] Settings (Accesibility, Notification, General, etc.)
+- [ ] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-- [] Allows users to request to be in a study group with a certain user(s)
+- [ ] Allows users to request to be in a study group with a certain user(s)
 
-- [] Study group history (to potentially match users with members of previous groups in the future)
+- [ ] Study group history (to potentially match users with members of previous groups in the future)
 
-- [] Group member ratings/karma system
+- [ ] Group member ratings/karma system
 
-- [] Page that allows groups to select custom study locations (perhaps off campus)
+- [ ] Page that allows groups to select custom study locations (perhaps off campus)
 
 
 ### 2. Screen Archetypes
