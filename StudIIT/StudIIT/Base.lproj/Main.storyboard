@@ -129,8 +129,16 @@
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="yWO-b2-iJt">
-                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="CY9-4H-eaT"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Setting" id="Kgo-4N-FCj"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="CY9-4H-eaT">
+                                            <connections>
+                                                <action selector="onLogOut:" destination="3D0-Ki-UMi" id="w0L-TP-66r"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Setting" id="Kgo-4N-FCj">
+                                            <connections>
+                                                <action selector="onSetting:" destination="3D0-Ki-UMi" id="mfT-Xs-O49"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>

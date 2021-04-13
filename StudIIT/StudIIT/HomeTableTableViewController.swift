@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class HomeTableTableViewController: UITableViewController {
 
@@ -32,6 +33,11 @@ class HomeTableTableViewController: UITableViewController {
         return 0
     }
 
+    @IBAction func onLogOut(_ sender: Any) {
+        PFUser.logOut()
+    }
+    @IBAction func onSetting(_ sender: Any) {
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
