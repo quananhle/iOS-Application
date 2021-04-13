@@ -1,5 +1,5 @@
 //
-//  MainPageViewController.swift
+//  ScheduleViewController.swift
 //  StudIIT
 //
 //  Created by Ashley Le on 4/12/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainPageViewController: UIViewController {
+class ScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

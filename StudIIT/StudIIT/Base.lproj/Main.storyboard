@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bPP-2r-v9R">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -107,78 +107,62 @@
                     <connections>
                         <outlet property="passwordField" destination="3L7-EP-YNe" id="naD-Up-hdE"/>
                         <outlet property="usernameField" destination="Kl5-0Y-95G" id="WUW-cG-l9K"/>
-                        <segue destination="w8c-Gd-c1A" kind="presentation" identifier="loginSegue" id="S9q-MU-uAr"/>
+                        <segue destination="bPP-2r-v9R" kind="presentation" identifier="loginSegue" id="V9E-pI-sqP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
-        <!--Home Table Table View Controller-->
-        <scene sceneID="bzG-q2-BzM">
+        <!--Profile-->
+        <scene sceneID="B94-hd-9c0">
             <objects>
-                <viewController id="3D0-Ki-UMi" customClass="HomeTableTableViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IJo-6g-BiZ">
+                <viewController id="nW8-8E-8eh" customClass="ProfileViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tky-ok-n1H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XED-ud-9tl">
-                                <rect key="frame" x="0.0" y="56" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem title="Home" id="yWO-b2-iJt">
-                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="CY9-4H-eaT">
-                                            <connections>
-                                                <action selector="onLogOut:" destination="3D0-Ki-UMi" id="w0L-TP-66r"/>
-                                            </connections>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Setting" id="Kgo-4N-FCj">
-                                            <connections>
-                                                <action selector="onSetting:" destination="3D0-Ki-UMi" id="mfT-Xs-O49"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-Os-ODn">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Item" width="113" id="sy0-pL-CXC"/>
-                                    <barButtonItem title="Item" width="84" id="vfg-dz-tOd"/>
-                                    <barButtonItem title="Item" width="126" id="Nja-Lr-yZb"/>
-                                    <barButtonItem title="Item" image="doc.text.magnifyingglass" catalog="system" width="276" id="Meq-hg-D2S"/>
-                                </items>
-                            </toolbar>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="XIa-uc-eFa"/>
+                        <viewLayoutGuide key="safeArea" id="g45-bE-jb2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WLv-in-w5L"/>
+                    <tabBarItem key="tabBarItem" title="Profile" id="oMh-hV-PQ5"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dy3-MQ-pyf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbu-Np-tcz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1863.7681159420292" y="118.52678571428571"/>
+            <point key="canvasLocation" x="1936" y="918"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="c7P-e3-Xxo">
+        <!--Schedule-->
+        <scene sceneID="zzl-9n-iGW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w8c-Gd-c1A" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bx6-xA-82A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="3D0-Ki-UMi" kind="relationship" relationship="rootViewController" id="iC0-Os-Yb3"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0cv-aW-Ise" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="DOZ-nR-qQP" customClass="ScheduleViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X1u-Uo-z7w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="WAF-KP-HvZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="YP2-H9-Y9l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ds-Bm-Xmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953.62318840579712" y="118.52678571428571"/>
+            <point key="canvasLocation" x="741" y="906"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Yaq-rK-IwS">
+            <objects>
+                <tabBarController id="bPP-2r-v9R" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d7u-BA-YcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DOZ-nR-qQP" kind="relationship" relationship="viewControllers" id="vdr-LB-erI"/>
+                        <segue destination="nW8-8E-8eh" kind="relationship" relationship="viewControllers" id="qsm-8G-fWT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsd-Y7-UJ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="119"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="ZIT-Qr-nUX">
@@ -332,8 +316,10 @@ Enter your email, phone, or username and we'll send you a link to get back into 
             <point key="canvasLocation" x="1043" y="-945"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="T8W-CZ-2Xo"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="508" height="220"/>
-        <image name="doc.text.magnifyingglass" catalog="system" width="116" height="128"/>
     </resources>
 </document>
