@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class FindViewController: UIViewController {
 
@@ -16,6 +17,10 @@ class FindViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func onLogoutButton(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let login = main.instantiateViewController(withIdentifier: "LoginViewController")
+        let delegate = self.view.window?.rootViewController = login
     }
     
 
