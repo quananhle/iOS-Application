@@ -15,6 +15,7 @@
 		490BC999262545F800393A65 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC998262545F800393A65 /* FindViewController.swift */; };
 		490BC99D2625460E00393A65 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC99C2625460E00393A65 /* ProfileViewController.swift */; };
 		490BC9A12625488B00393A65 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC9A02625488B00393A65 /* ChatViewController.swift */; };
+		490BC9A3262549F400393A65 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC9A2262549F400393A65 /* SettingViewController.swift */; };
 		4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41B2609A5A900A13296 /* AppDelegate.swift */; };
 		4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41D2609A5A900A13296 /* SceneDelegate.swift */; };
 		4940E4202609A5A900A13296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41F2609A5A900A13296 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		490BC998262545F800393A65 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		490BC99C2625460E00393A65 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		490BC9A02625488B00393A65 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		490BC9A2262549F400393A65 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		4940E4182609A5A900A13296 /* StudIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4940E41B2609A5A900A13296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4940E41D2609A5A900A13296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				4940E41D2609A5A900A13296 /* SceneDelegate.swift */,
 				4940E41F2609A5A900A13296 /* ViewController.swift */,
 				4940E4212609A5A900A13296 /* Main.storyboard */,
+				490BC9A2262549F400393A65 /* SettingViewController.swift */,
 				490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */,
 				490BC982261C155F00393A65 /* LoginViewController.swift */,
 				4940E4242609A5AB00A13296 /* Assets.xcassets */,
@@ -429,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4940E4202609A5A900A13296 /* ViewController.swift in Sources */,
+				490BC9A3262549F400393A65 /* SettingViewController.swift in Sources */,
 				490BC99D2625460E00393A65 /* ProfileViewController.swift in Sources */,
 				4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */,
 				490BC987261C15A700393A65 /* RegisterViewController.swift in Sources */,

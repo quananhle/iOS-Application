@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,8 +127,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Profile" id="bUz-ea-shr">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="tQc-d5-cPG"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Psp-Uo-yXG"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="tQc-d5-cPG">
+                                            <connections>
+                                                <action selector="onLogoutButton:" destination="nW8-8E-8eh" id="dfX-Sn-NHf"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -140,7 +143,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbu-Np-tcz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1936" y="918"/>
+            <point key="canvasLocation" x="1709" y="917"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="yWS-06-EMU">
+            <objects>
+                <viewController id="Gs1-vX-d49" customClass="SettingViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="muO-79-Wnq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zOX-ia-bN4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="u0u-5g-XTO">
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Cvl-t4-jiM">
+                                            <connections>
+                                                <action selector="onLogoutButton:" destination="Gs1-vX-d49" id="MAP-MN-67N"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jld-Ao-jlc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="2p9-pc-rZd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xS-Ku-2ER" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4578" y="917"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="zzl-9n-iGW">
@@ -155,8 +189,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Schedule" id="GTN-YD-j3c">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="BnA-ta-cYO"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="9hX-0m-G7a"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="BnA-ta-cYO">
+                                            <connections>
+                                                <action selector="onLogoutButton:" destination="DOZ-nR-qQP" id="gdw-yN-03Y"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -168,12 +205,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ds-Bm-Xmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="906"/>
+            <point key="canvasLocation" x="820" y="917"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Yaq-rK-IwS">
             <objects>
-                <tabBarController id="bPP-2r-v9R" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="bPP-2r-v9R" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d7u-BA-YcZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -184,11 +221,12 @@
                         <segue destination="nW8-8E-8eh" kind="relationship" relationship="viewControllers" id="qsm-8G-fWT"/>
                         <segue destination="CnZ-Yj-wnE" kind="relationship" relationship="viewControllers" id="ofu-ox-egJ"/>
                         <segue destination="Hbf-oA-rpR" kind="relationship" relationship="viewControllers" id="P46-xG-dcT"/>
+                        <segue destination="Gs1-vX-d49" kind="relationship" relationship="viewControllers" id="ARR-ax-4Wd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bsd-Y7-UJ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1258" y="119"/>
+            <point key="canvasLocation" x="2674" y="119"/>
         </scene>
         <!--Find-->
         <scene sceneID="nKm-fN-ZlN">
@@ -203,8 +241,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Find" id="ztS-Qb-Xh7">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="STu-EU-XrH"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="cy5-ke-zSE"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="STu-EU-XrH">
+                                            <connections>
+                                                <action selector="onLogoutButton:" destination="CnZ-Yj-wnE" id="kMJ-p0-R5z"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -217,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94K-pT-Szv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426" y="-589"/>
+            <point key="canvasLocation" x="2674" y="917"/>
         </scene>
         <!--Chat-->
         <scene sceneID="sGr-oY-G3q">
@@ -232,8 +273,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Chat" id="IfK-es-erh">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="QLF-Oi-4lZ"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="rYH-fT-qON"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="QLF-Oi-4lZ">
+                                            <connections>
+                                                <action selector="onLogoutButton:" destination="Hbf-oA-rpR" id="0GO-o7-4jG"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -246,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaO-nZ-ylu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426" y="139"/>
+            <point key="canvasLocation" x="3636" y="917"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="ZIT-Qr-nUX">
