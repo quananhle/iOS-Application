@@ -126,7 +126,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="bUz-ea-shr"/>
+                                    <navigationItem title="Profile" id="bUz-ea-shr">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="tQc-d5-cPG"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Psp-Uo-yXG"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -151,7 +154,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="GTN-YD-j3c"/>
+                                    <navigationItem title="Schedule" id="GTN-YD-j3c">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="BnA-ta-cYO"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="9hX-0m-G7a"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -191,6 +197,18 @@
                     <view key="view" contentMode="scaleToFill" id="ffp-eA-tDj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDR-Wh-Prj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Find" id="ztS-Qb-Xh7">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="STu-EU-XrH"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="cy5-ke-zSE"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="0bx-Jy-rhE"/>
                     </view>
@@ -208,6 +226,18 @@
                     <view key="view" contentMode="scaleToFill" id="SJy-1T-5zl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJX-VL-1HG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Chat" id="IfK-es-erh">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="QLF-Oi-4lZ"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="rYH-fT-qON"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="OkF-Rs-UMS"/>
                     </view>
