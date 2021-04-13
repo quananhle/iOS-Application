@@ -9,7 +9,8 @@
 import UIKit
 
 class ForgetPasswordViewController: UIViewController {
-
+    @IBOutlet weak var sendLoginLink: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
