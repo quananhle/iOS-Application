@@ -38,6 +38,8 @@ class RegisterViewController: UIViewController {
         }
     }
 
+    @IBAction func onGoBack(_ sender: Any) { self.dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

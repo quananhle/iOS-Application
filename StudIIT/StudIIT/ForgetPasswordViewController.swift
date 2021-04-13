@@ -34,7 +34,7 @@ class ForgetPasswordViewController: UIViewController {
     }
 
     @IBAction func afterLinkSent(_ sender: Any) {
-        self.performSegue(withIdentifier: "resetPasswordSegue", sender: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*

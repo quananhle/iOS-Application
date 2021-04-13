@@ -121,6 +121,29 @@
                     <view key="view" contentMode="scaleToFill" id="IJo-6g-BiZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XED-ud-9tl">
+                                <rect key="frame" x="0.0" y="56" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="yWO-b2-iJt">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="CY9-4H-eaT"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Kgo-4N-FCj"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-Os-ODn">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" id="5QC-m2-RKq"/>
+                                    <barButtonItem title="Item" width="113" id="sy0-pL-CXC"/>
+                                    <barButtonItem title="Item" id="vfg-dz-tOd"/>
+                                    <barButtonItem title="Item" width="106" id="Nja-Lr-yZb"/>
+                                    <barButtonItem title="Item" image="doc.text.magnifyingglass" catalog="system" width="276" id="Meq-hg-D2S"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="XIa-uc-eFa"/>
                     </view>
@@ -196,6 +219,14 @@
                                     <action selector="onSignUp:" destination="lvt-Qt-xJX" eventType="touchUpInside" id="NEf-bV-6Bn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-Yf-k2L">
+                                <rect key="frame" x="159" y="493" width="58" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go Back"/>
+                                <connections>
+                                    <action selector="onGoBack:" destination="lvt-Qt-xJX" eventType="touchUpInside" id="UES-Mu-HPS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aTi-a1-KCW"/>
@@ -210,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guK-76-XNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-651" y="848"/>
+            <point key="canvasLocation" x="-652.17391304347836" y="847.76785714285711"/>
         </scene>
         <!--Forget Password View Controller-->
         <scene sceneID="nns-Eo-bgN">
@@ -266,7 +297,6 @@ Enter your email, phone, or username and we'll send you a link to get back into 
                                 <state key="normal" title="Go Back"/>
                                 <connections>
                                     <action selector="afterLinkSent:" destination="CcR-p5-NwN" eventType="touchUpInside" id="uT5-gb-O1C"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="resetPasswordSegue" id="Fzo-2k-pZK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chs-bg-3aF">
@@ -290,13 +320,11 @@ Enter your email, phone, or username and we'll send you a link to get back into 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MNb-aS-cFw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="763.768115942029" y="847.76785714285711"/>
+            <point key="canvasLocation" x="1043" y="-945"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Fzo-2k-pZK"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="508" height="220"/>
+        <image name="doc.text.magnifyingglass" catalog="system" width="116" height="128"/>
     </resources>
 </document>
