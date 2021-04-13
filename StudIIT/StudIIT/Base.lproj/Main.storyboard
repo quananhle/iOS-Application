@@ -125,10 +125,12 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XED-ud-9tl">
                                 <rect key="frame" x="0.0" y="56" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="yWO-b2-iJt">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="CY9-4H-eaT"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Kgo-4N-FCj"/>
+                                    <navigationItem title="Home" id="yWO-b2-iJt">
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="CY9-4H-eaT"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Setting" id="Kgo-4N-FCj"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -136,10 +138,9 @@
                                 <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="5QC-m2-RKq"/>
                                     <barButtonItem title="Item" width="113" id="sy0-pL-CXC"/>
-                                    <barButtonItem title="Item" id="vfg-dz-tOd"/>
-                                    <barButtonItem title="Item" width="106" id="Nja-Lr-yZb"/>
+                                    <barButtonItem title="Item" width="84" id="vfg-dz-tOd"/>
+                                    <barButtonItem title="Item" width="126" id="Nja-Lr-yZb"/>
                                     <barButtonItem title="Item" image="doc.text.magnifyingglass" catalog="system" width="276" id="Meq-hg-D2S"/>
                                 </items>
                             </toolbar>

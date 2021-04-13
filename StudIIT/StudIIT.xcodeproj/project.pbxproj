@@ -12,6 +12,7 @@
 		490BC985261C158800393A65 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC984261C158800393A65 /* MainPageViewController.swift */; };
 		490BC987261C15A700393A65 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC986261C15A700393A65 /* RegisterViewController.swift */; };
 		490BC98926251F6F00393A65 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */; };
+		490BC98B26253D1900393A65 /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC98A26253D1800393A65 /* HomeTableTableViewController.swift */; };
 		4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41B2609A5A900A13296 /* AppDelegate.swift */; };
 		4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41D2609A5A900A13296 /* SceneDelegate.swift */; };
 		4940E4202609A5A900A13296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41F2609A5A900A13296 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		490BC984261C158800393A65 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		490BC986261C15A700393A65 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		490BC98A26253D1800393A65 /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
 		4940E4182609A5A900A13296 /* StudIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4940E41B2609A5A900A13296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4940E41D2609A5A900A13296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				4940E41D2609A5A900A13296 /* SceneDelegate.swift */,
 				4940E41F2609A5A900A13296 /* ViewController.swift */,
 				4940E4212609A5A900A13296 /* Main.storyboard */,
+				490BC98A26253D1800393A65 /* HomeTableTableViewController.swift */,
 				490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */,
 				490BC982261C155F00393A65 /* LoginViewController.swift */,
 				4940E4242609A5AB00A13296 /* Assets.xcassets */,
@@ -420,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490BC985261C158800393A65 /* MainPageViewController.swift in Sources */,
+				490BC98B26253D1900393A65 /* HomeTableTableViewController.swift in Sources */,
 				4940E4202609A5A900A13296 /* ViewController.swift in Sources */,
 				4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */,
 				490BC987261C15A700393A65 /* RegisterViewController.swift in Sources */,
