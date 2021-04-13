@@ -138,7 +138,13 @@ Optional:
 |(UPDATE/DELETE)|        |Delete an already existing reservation|
 |(CREATE/POST)  |        |Put a rating or a comment about a given study spot|
 
+### Week 1 progress
 <p float="left">
 <a href="Pictures/studIIT.gif"><img src="Pictures/studIIT.gif" height="750" width="350"></a>
 <a href="Pictures/login.gif"><img src="Pictures/login.gif" height="750" width="350"></a>	
+</p>
+
+### Week 2 progress
+<p float="left">
+<a href="Pictures/tabbar.gif"><img src="Pictures/tabbar.gif" height="750" width="350"></a>
 </p>
