@@ -9,6 +9,14 @@
 import UIKit
 import Parse
 
+extension String {
+    func isValidEmail() -> Bool {
+        // here, `try!` will always succeed because the pattern is valid
+        let regex = try! NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .caseInsensitive)
+        return regex.firstMatch(in: self, options: [], range: NSRange(location: 0, length: count)) != nil
+    }
+}
+
 class ForgetPasswordViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     
@@ -16,23 +24,19 @@ class ForgetPasswordViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let button = UIButton(type: .custom)
-        button.frame = CGRect(x: 160, y: 100, width: 50, height: 50)
-        button.layer.cornerRadius = 0.5 * button.bounds.size.width
-        button.clipsToBounds = true
-        button.setImage(UIImage(named:"thumbsUp.png"), for: .normal)
-        button.addTarget(self, action: #selector(thumbsUpButtonPressed), for: .touchUpInside)
-        view.addSubview(button)
     }
     
     @IBAction func onSendLoginLink(_ sender: Any) {
-        let email = emailField.text
-        PFUser.requestPasswordResetForEmail(inBackground:email!)
+        let email: String = emailField.text!
+        if email.isValidEmail(){
+            PFUser.requestPasswordResetForEmail(inBackground:"email@example.com")
+        }
     }
 
-    @objc func thumbsUpButtonPressed() {
-        print("Send Login Link Button pressed!")
+    @IBAction func afterLinkSent(_ sender: Any) {
+        self.performSegue(withIdentifier: "resetPasswordSegue", sender: nil)
     }
+    
     /*
     // MARK: - Navigation
 
