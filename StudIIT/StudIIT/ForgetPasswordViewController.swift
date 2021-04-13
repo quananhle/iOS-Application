@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Parse
 
 class ForgetPasswordViewController: UIViewController {
-    @IBOutlet weak var sendLoginLink: UIButton!
+    @IBOutlet weak var emailField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +18,26 @@ class ForgetPasswordViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onSendLoginLink(_ sender: Any) {
+        PFUser.requestPasswordResetForEmail(inBackground:"email@example.com")
+    }
+    
+    @IBAction func onSignIn(_ sender: Any) {
+        let username = usernameField.text
+        let password = passwordField.text
+        PFUser.logInWithUsername(inBackground: username!, password: password!) { (user, error) in
+            if user != nil {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+            else {
+                print ("Error: \(error?.localizedDescription)")
+            }
+        }
+    }
+    @IBAction func onForgotPassword(_ sender: Any) {
+    }
+    @IBAction func onRegister(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 

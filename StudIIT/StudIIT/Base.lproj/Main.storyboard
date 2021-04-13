@@ -231,6 +231,9 @@ Enter your email, phone, or username and we'll send you a link to get back into 
                                 <rect key="frame" x="153" y="400" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Login Link"/>
+                                <connections>
+                                    <action selector="onSendLoginLink:" destination="CcR-p5-NwN" eventType="touchUpInside" id="dvF-gM-9ik"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WTF-JT-zoj">
                                 <rect key="frame" x="89" y="56" width="240" height="128"/>
@@ -268,7 +271,7 @@ Enter your email, phone, or username and we'll send you a link to get back into 
                         <viewLayoutGuide key="safeArea" id="Abw-rD-gU1"/>
                     </view>
                     <connections>
-                        <outlet property="sendLoginLink" destination="Chs-bg-3aF" id="xPv-vt-NrR"/>
+                        <outlet property="emailField" destination="WB1-jx-QTN" id="T7r-a5-TXC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MNb-aS-cFw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
