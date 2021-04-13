@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
-        <!--Main Page View Controller-->
+        <!--Home Table Table View Controller-->
         <scene sceneID="bzG-q2-BzM">
             <objects>
-                <viewController id="3D0-Ki-UMi" customClass="MainPageViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3D0-Ki-UMi" customClass="HomeTableTableViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IJo-6g-BiZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
