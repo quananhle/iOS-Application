@@ -176,37 +176,43 @@
                     <connections>
                         <segue destination="DOZ-nR-qQP" kind="relationship" relationship="viewControllers" id="vdr-LB-erI"/>
                         <segue destination="nW8-8E-8eh" kind="relationship" relationship="viewControllers" id="qsm-8G-fWT"/>
+                        <segue destination="CnZ-Yj-wnE" kind="relationship" relationship="viewControllers" id="ofu-ox-egJ"/>
+                        <segue destination="Hbf-oA-rpR" kind="relationship" relationship="viewControllers" id="P46-xG-dcT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bsd-Y7-UJ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1258" y="119"/>
         </scene>
-        <!--View Controller-->
+        <!--Find-->
         <scene sceneID="nKm-fN-ZlN">
             <objects>
-                <viewController id="CnZ-Yj-wnE" sceneMemberID="viewController">
+                <viewController id="CnZ-Yj-wnE" customClass="FindViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ffp-eA-tDj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="0bx-Jy-rhE"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Find" id="1xE-FS-0Jj"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94K-pT-Szv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2426" y="-589"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat-->
         <scene sceneID="sGr-oY-G3q">
             <objects>
-                <viewController id="Hbf-oA-rpR" sceneMemberID="viewController">
+                <viewController id="Hbf-oA-rpR" customClass="ChatViewController" customModule="StudIIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJy-1T-5zl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="OkF-Rs-UMS"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Chat" id="t3V-Oq-t39"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaO-nZ-ylu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

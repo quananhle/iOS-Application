@@ -13,8 +13,8 @@
 		490BC98926251F6F00393A65 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */; };
 		490BC997262545ED00393A65 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC996262545ED00393A65 /* ScheduleViewController.swift */; };
 		490BC999262545F800393A65 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC998262545F800393A65 /* FindViewController.swift */; };
-		490BC99B2625460300393A65 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC99A2625460300393A65 /* GroupViewController.swift */; };
 		490BC99D2625460E00393A65 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC99C2625460E00393A65 /* ProfileViewController.swift */; };
+		490BC9A12625488B00393A65 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BC9A02625488B00393A65 /* ChatViewController.swift */; };
 		4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41B2609A5A900A13296 /* AppDelegate.swift */; };
 		4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41D2609A5A900A13296 /* SceneDelegate.swift */; };
 		4940E4202609A5A900A13296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940E41F2609A5A900A13296 /* ViewController.swift */; };
@@ -52,8 +52,8 @@
 		490BC98826251F6F00393A65 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		490BC996262545ED00393A65 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		490BC998262545F800393A65 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
-		490BC99A2625460300393A65 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		490BC99C2625460E00393A65 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		490BC9A02625488B00393A65 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4940E4182609A5A900A13296 /* StudIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4940E41B2609A5A900A13296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4940E41D2609A5A900A13296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 				490BC986261C15A700393A65 /* RegisterViewController.swift */,
 				490BC996262545ED00393A65 /* ScheduleViewController.swift */,
 				490BC998262545F800393A65 /* FindViewController.swift */,
-				490BC99A2625460300393A65 /* GroupViewController.swift */,
 				490BC99C2625460E00393A65 /* ProfileViewController.swift */,
+				490BC9A02625488B00393A65 /* ChatViewController.swift */,
 			);
 			path = StudIIT;
 			sourceTree = "<group>";
@@ -428,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490BC99B2625460300393A65 /* GroupViewController.swift in Sources */,
 				4940E4202609A5A900A13296 /* ViewController.swift in Sources */,
 				490BC99D2625460E00393A65 /* ProfileViewController.swift in Sources */,
 				4940E41C2609A5A900A13296 /* AppDelegate.swift in Sources */,
@@ -437,6 +436,7 @@
 				490BC98926251F6F00393A65 /* ForgetPasswordViewController.swift in Sources */,
 				490BC983261C155F00393A65 /* LoginViewController.swift in Sources */,
 				490BC997262545ED00393A65 /* ScheduleViewController.swift in Sources */,
+				490BC9A12625488B00393A65 /* ChatViewController.swift in Sources */,
 				4940E41E2609A5A900A13296 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

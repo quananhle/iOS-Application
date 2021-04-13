@@ -1,5 +1,5 @@
 //
-//  MainPageViewController.swift
+//  ChatViewController.swift
 //  StudIIT
 //
 //  Created by Ashley Le on 4/12/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainPageViewController: UIViewController {
+class ChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
