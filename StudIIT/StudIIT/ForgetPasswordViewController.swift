@@ -16,27 +16,22 @@ class ForgetPasswordViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let button = UIButton(type: .custom)
+        button.frame = CGRect(x: 160, y: 100, width: 50, height: 50)
+        button.layer.cornerRadius = 0.5 * button.bounds.size.width
+        button.clipsToBounds = true
+        button.setImage(UIImage(named:"thumbsUp.png"), for: .normal)
+        button.addTarget(self, action: #selector(thumbsUpButtonPressed), for: .touchUpInside)
+        view.addSubview(button)
     }
     
     @IBAction func onSendLoginLink(_ sender: Any) {
-        PFUser.requestPasswordResetForEmail(inBackground:"email@example.com")
+        let email = emailField.text
+        PFUser.requestPasswordResetForEmail(inBackground:email!)
     }
-    
-    @IBAction func onSignIn(_ sender: Any) {
-        let username = usernameField.text
-        let password = passwordField.text
-        PFUser.logInWithUsername(inBackground: username!, password: password!) { (user, error) in
-            if user != nil {
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
-            }
-            else {
-                print ("Error: \(error?.localizedDescription)")
-            }
-        }
-    }
-    @IBAction func onForgotPassword(_ sender: Any) {
-    }
-    @IBAction func onRegister(_ sender: Any) {
+
+    @objc func thumbsUpButtonPressed() {
+        print("Send Login Link Button pressed!")
     }
     /*
     // MARK: - Navigation
