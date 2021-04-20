@@ -148,3 +148,9 @@ Optional:
 <p float="left">
 <a href="Pictures/tabbar.gif"><img src="Pictures/tabbar.gif" height="750" width="350"></a>
 </p>
+
+
+### Week 3 progress
+<p float="left">
+<a href="Pictures/tabbar.gif"><img src="Pictures/tabbar.gif" height="750" width="350"></a>
+</p>
